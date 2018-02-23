@@ -1,0 +1,90 @@
+{
+  "response": {
+    "GeoObjectCollection": {
+      "metaDataProperty": {
+        "GeocoderResponseMetaData": {
+          "request": "Санкт-петербург Заставская 22",
+          "found": "1",
+          "results": "10"
+        }
+      },
+      "featureMember": [
+        {
+          "GeoObject": {
+            "metaDataProperty": {
+              "GeocoderMetaData": {
+                "kind": "house",
+                "text": "Россия, Санкт-Петербург, Заставская улица, 22А",
+                "precision": "number",
+                "Address": {
+                  "country_code": "RU",
+                  "postal_code": "196084",
+                  "formatted": "Санкт-Петербург, Заставская улица, 22А",
+                  "Components": [
+                    {
+                      "kind": "country",
+                      "name": "Россия"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Северо-Западный федеральный округ"
+                    },
+                    {
+                      "kind": "province",
+                      "name": "Санкт-Петербург"
+                    },
+                    {
+                      "kind": "locality",
+                      "name": "Санкт-Петербург"
+                    },
+                    {
+                      "kind": "street",
+                      "name": "Заставская улица"
+                    },
+                    {
+                      "kind": "house",
+                      "name": "22А"
+                    }
+                  ]
+                },
+                "AddressDetails": {
+                  "Country": {
+                    "AddressLine": "Санкт-Петербург, Заставская улица, 22А",
+                    "CountryNameCode": "RU",
+                    "CountryName": "Россия",
+                    "AdministrativeArea": {
+                      "AdministrativeAreaName": "Санкт-Петербург",
+                      "Locality": {
+                        "LocalityName": "Санкт-Петербург",
+                        "Thoroughfare": {
+                          "ThoroughfareName": "Заставская улица",
+                          "Premise": {
+                            "PremiseNumber": "22А",
+                            "PostalCode": {
+                              "PostalCodeNumber": "196084"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "description": "Санкт-Петербург, Россия",
+            "name": "Заставская улица, 22А",
+            "boundedBy": {
+              "Envelope": {
+                "lowerCorner": "30.322147 59.886537",
+                "upperCorner": "30.330358 59.890663"
+              }
+            },
+            "Point": {
+              "pos": "30.326253 59.8886"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
